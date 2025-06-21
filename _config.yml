@@ -15,13 +15,15 @@ plugins:
 # Site Author
 author:
   name: "AstralAGI"
-  avatar: "/assets/images/logo.png" # Placeholder for a logo
   bio: "AI-driven insights into the cosmos."
   location: "The Digital Universe"
   links:
     - label: "Visit the Oracle"
       icon: "fas fa-fw fa-link"
       url: "https://oracle.astralagi.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/astralagi/astralagi.github.io"
 
 # Masthead
 masthead:
@@ -33,9 +35,25 @@ masthead:
     - title: "Visit Oracle"
       url: "https://oracle.astralagi.com"
 
+# Search
+search: true
+
 # Analytics
 analytics:
   provider: "google-gtag"
   google:
     tracking_id: "" # Add your G-tag here
     anonymize_ip: false
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
