@@ -2,9 +2,13 @@
 # Overrides for the Minimal Mistakes theme
 ---
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @import "minimal-mistakes/skins/dark";
 
 /* --- AstralAGI Branding --- */
+
+// Fonts
+$sans-serif: "Montserrat", sans-serif;
 
 // Color Palette based on https://www.astralagi.com/
 $background-color: #0d0c1d; // Dark purple-blue from the site background
@@ -22,6 +26,7 @@ $btn-primary-text-color: $background-color;
 body {
   background-color: $background-color;
   color: $text-color;
+  font-family: $sans-serif;
 }
 
 // Links
@@ -38,4 +43,20 @@ h1, h2, h3, h4, h5, h6 {
 .masthead {
   background-color: $background-color;
   border-bottom-color: $border-color;
+}
+
+// Visually hide accessibility links
+.skip-links {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+// Style the menu button
+.greedy-nav__toggle {
+  background-color: $primary-color;
+  color: $background-color;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
 } 

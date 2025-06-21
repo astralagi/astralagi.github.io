@@ -23,6 +23,16 @@ author:
       icon: "fas fa-fw fa-link"
       url: "https://oracle.astralagi.com"
 
+# Masthead
+masthead:
+  show_title: true
+  title: "AstralAGI Blog"
+  links:
+    - title: "Home"
+      url: "/"
+    - title: "Visit Oracle"
+      url: "https://oracle.astralagi.com"
+
 # Analytics
 analytics:
   provider: "google-gtag"

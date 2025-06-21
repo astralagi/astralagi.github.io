@@ -16,17 +16,7 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 TARGET_GITHUB_REPO = os.getenv("TARGET_GITHUB_REPO")
 POSTS_DIRECTORY = "_posts"
 INDEX_FILENAME = "index.md"
-INDEX_HEADER = """---
-layout: home
-author_profile: true
----
-# Astrology Blog
-
-Welcome to my AI-powered astrology blog!
-
----
-
-"""
+INDEX_HEADER = "" # This will be handled by the layout file now.
 
 # --- GEMINI PROMPT ---
 GEMINI_PROMPT_TEMPLATE = """
