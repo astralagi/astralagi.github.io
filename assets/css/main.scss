@@ -1,0 +1,41 @@
+---
+# Overrides for the Minimal Mistakes theme
+---
+
+@import "minimal-mistakes/skins/dark";
+
+/* --- AstralAGI Branding --- */
+
+// Color Palette based on https://www.astralagi.com/
+$background-color: #0d0c1d; // Dark purple-blue from the site background
+$text-color: #e9e6ff; // Light lavender-white for body text
+$primary-color: #f7b733; // Bright gold for headings, links, and accents
+$border-color: #3d3b6b; // A slightly lighter purple for borders
+$masthead-link-color: $text-color;
+
+// Buttons
+$btn-primary-color: $primary-color;
+$btn-primary-background-color: #ffffff;
+$btn-primary-text-color: $background-color;
+
+// Body
+body {
+  background-color: $background-color;
+  color: $text-color;
+}
+
+// Links
+a {
+  color: $primary-color;
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  color: $primary-color;
+}
+
+// Masthead (Top Navigation)
+.masthead {
+  background-color: $background-color;
+  border-bottom-color: $border-color;
+} 

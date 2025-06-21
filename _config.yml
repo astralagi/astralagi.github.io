@@ -1,6 +1,7 @@
 # Site settings
-title: Metaphysical Knowledge
-description: An AI-powered blog exploring astrology, numerology, and tarot.
+title: "AstralAGI Blog"
+description: "An AI-powered blog exploring astrology, numerology, and tarot, from the creators of oracle.astralagi.com."
+minimal_mistakes_skin: "dark"
 baseurl: "" # The name of your GitHub repository
 url: "https://blog.astralagi.com" # Your GitHub Pages URL
 
@@ -10,3 +11,21 @@ remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+
+# Site Author
+author:
+  name: "AstralAGI"
+  avatar: "/assets/images/logo.png" # Placeholder for a logo
+  bio: "AI-driven insights into the cosmos."
+  location: "The Digital Universe"
+  links:
+    - label: "Visit the Oracle"
+      icon: "fas fa-fw fa-link"
+      url: "https://oracle.astralagi.com"
+
+# Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "" # Add your G-tag here
+    anonymize_ip: false
