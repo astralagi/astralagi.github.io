@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-selfcheck.json
+.tox/
+.eggs/
+*.egg-info/
+
+# Environment variables
+.env
+
+# IDE settings
+.vscode/
+.idea/ 

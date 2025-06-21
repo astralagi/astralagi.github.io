@@ -1,0 +1,13 @@
+# Site settings
+title: Metaphysical Knowledge
+description: An AI-powered blog exploring astrology, numerology, and tarot.
+baseurl: "" # The name of your GitHub repository
+url: "https://blog.astralagi.com" # Your GitHub Pages URL
+
+# Build settings
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes"
+# theme: minima # A popular and clean default theme
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache 
