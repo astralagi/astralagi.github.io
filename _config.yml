@@ -3,7 +3,7 @@ title: "AstralAGI Blog"
 description: "An AI-powered blog exploring astrology, numerology, and tarot, from the creators of oracle.astralagi.com."
 minimal_mistakes_skin: "dark"
 baseurl: "" # The name of your GitHub repository
-url: "https://blog.astralagi.com" # Your GitHub Pages URL
+url: "https://astralagi.github.io" # Your GitHub Pages URL
 
 # Build settings
 markdown: kramdown
