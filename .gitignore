@@ -16,4 +16,12 @@ pip-selfcheck.json
 
 # IDE settings
 .vscode/
-.idea/ 
+.idea/
+
+# Cache
+.sass-cache/
+.jekyll-cache/
+/vendor/
+
+# Data files
+Search terms report.csv 
